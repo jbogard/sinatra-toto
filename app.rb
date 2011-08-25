@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'sinatra'
 
-get '/' do
-  "I love lamp"
+class SinatraApp < Sinatra::Base
+  get '/' do
+    "I love lamp"
+  end
 end
